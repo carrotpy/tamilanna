@@ -2,18 +2,122 @@ project:
   type: website
 
 website:
-  title: "tamilanna"
+  title: "ML Blog"
+  description: "Illustrated tutorials about large language models, graph neural networks, and convex optimization using Python."
+  site-url: https://Opensource.github.io/blog
   navbar:
+    left:
+      - text: "{{< fa book >}} Hands-On GNNs"
+        file: book.qmd
+      - text: "{{< fa pen >}} Notes"
+        file: notes.qmd
+      - text: "{{< fa flask >}} Publications"
+        file: publications.qmd
+      - text: "{{< fa address-card >}} About"
+        file: about.qmd
     right:
-      - about.qmd
+      - text: "@Opensource"
+        icon: twitter
+        href: https://twitter.com/Opensource
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/Opensource
+      - icon: medium
+        href: https://medium.com/@Opensource
+      - icon: linkedin
+        href: https://linkedin.com/in/Opensource/
+    pinned: false
+
+  favicon: images/favicon.ico
+  twitter-card: true
+  open-graph: true
+  page-footer: "{{< fa regular copyright >}} Copyright 2023, Opensource" 
+
+  sidebar:
+    - id: articles
+      title: "Articles"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - section: "🌐 **Graph neural networks**"
+          contents:
+            - text: "1. Graph Convolution Network"
+              href: posts/2022-02-20-Graph_Convolution_Network.html
+            - text: "2. Graph Attention Network"
+              href: posts/2022-03-09-Graph_Attention_Network.html
+            - text: "3. GraphSAGE"
+              href: posts/2022-04-06-GraphSAGE.html
+            - text: "4. Graph Isomorphism Network"
+              href: posts/2022-04-25-Graph_Isomorphism_Network.html
+        - text: "---"
+        - section: "🥇 **Linear programming**"
+          contents:
+            - text: "1. Linear Programming"
+              href: posts/2022-03-02-Linear_Programming.html
+            - text: "2. Integer Programming"
+              href: posts/2022-03-05-Integer_Programming.html
+            - text: "3. Constraint Programming"
+              href: posts/2022-05-02-Constraint_Programming.html
+            - text: "4. Nonlinear Programming"
+              href: posts/2023-05-21-Nonlinear_optimization.html
+        - text: "---"
+        - section: "🗣️ **Large language models**"
+          contents:
+            - text: "1. Fine-tune Llama 2 in Colab"
+              href: posts/Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.html
+            - text: "2. Fine-tune Llama 2 in Axolotl"
+              href: posts/A_Beginners_Guide_to_LLM_Finetuning.html
+            - text: "3. Decoding Strategies"
+              href: posts/2023-06-07-Decoding_strategies.html
+            - text: "4. Intro to Quantization"
+              href: posts/Introduction_to_Weight_Quantization.html
+            - text: "5. Quantization with GPTQ"
+              href: posts/4_bit_Quantization_with_GPTQ.html
+            - text: "6. Quantization with GGML"
+              href: posts/Quantize_Llama_2_models_using_ggml.html
+            - text: "ChatGPT + KG"
+              href: posts/Article_Improve_ChatGPT_with_Knowledge_Graphs.html
+        - text: "---"
+        - section: "🤖 **Reinforcement learning**"
+          contents:
+            - text: "Q-learning"
+              href: posts/2022-02-13-Q_learning.html
+            - text: "Minecraft Bot"
+              href: posts/2022-05-25-Minecraft.html
+        - text: "---"
+        - section: "📊 **Data science**"
+          contents:
+            - text: "Loops in Pandas"
+              href: posts/2022-03-21-Efficiently_iterating_over_rows_in_a_Pandas_DataFrame.html
+            - text: "What is a Tensor"
+              href: posts/2022-03-28-What_is_a_Tensor_in_Deep_Learning.html
+
+    - id: notes
+      title: "Notes"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - section: "🗣️ **Large language models**"
+          contents: "notes/Large Language Models/*"
+        - text: "---"
+        - section: "💡 **Machine learning**"
+          contents: "notes/Machine Learning/*"
 format:
   html:
-    theme: minty
+    page-layout: article
+    theme: [minty, styles.scss]
+    toc: true
+    toc-depth: 2
+    toc-title: "**Sections**"
     css: styles.css
+    html-math-method: katex
+    code-overflow: wrap
+    highlight-style: github-dark
+    code-block-background: true
+    link-external-newwindow: true
+    embed-resources: true
 
-
-
+comments:
+  utterances:
+    repo: https://github.com/Opensource/blog

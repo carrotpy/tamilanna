@@ -1,1 +1,1 @@
-Sitemap: https://Opensource.github.io/blog/sitemap.xml
+Sitemap: https://github.com/carrotpy/tamilanna/sitemap.xml

@@ -1,2 +1,4 @@
-_site/*
-.vicode/*
+.quarto
+.vscode
+.quarto
+_site

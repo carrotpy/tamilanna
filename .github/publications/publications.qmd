@@ -1,0 +1,16 @@
+* [Data-driven multi-valley dark solitons of multi-component Manakov Model using Physics-Informed Neural Networks](https://www.sciencedirect.com/science/article/pii/S0960077923004101) 
+
+* [Primer on solving differential equations using machine learning techniques](https://scholar.google.com/scholar?oi=bibs&cluster=15925009269620985695&btnI=1&hl=en)
+
+* [Bayesian Optimization of Bose-Einstein Condensates](https://www.nature.com/articles/s41598-021-84336-0)
+* [SymSpell and LSTM based Spell-Checkers for Tamil](http://uttamam.org/papers/20_17.pdf)
+* [Structural,  linear and non linear optical, electrical, piezoelectric and thermal  investigation on new semi-organic single crystal for microelectronics  and high power laser applications: A brucinium di-hydrogen borate  hydrate](https://scholar.google.com/scholar?oi=bibs&cluster=3404695331900132041&btnI=1&hl=en)
+
+* [Dynamics of solitons in the fourth-order nonlocal nonlinear Schrödinger equation](https://link.springer.com/article/10.1007/s11071-019-05354-2)
+
+* [Structural,  optical and piezoelectric investigation on brucinium bromide hydrate  non linear optical single crystal for optical parametric oscillators,  high-power laser, piezo-sensors and transducers applications](https://scholar.google.com/scholar?oi=bibs&cluster=12402906553985537967&btnI=1&hl=en)
+
+  
+
+  
+

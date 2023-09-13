@@ -2,29 +2,28 @@ project:
   type: website
 
 website:
-  title: "tamilanna"
-  description: "panitan."
-  # site-url: https://tamilanna.github.io
+  title: "Tamil Arasan"
+  description: "Theoretical Physicist turned Machine Learning Research Engineer"
+  # site-url: https://tamilarasan.github.io
   navbar:
     left:
-      - text: "{{< fa book >}} Hands-On GNNs"
-        file: book.qmd
+      - text: "{{< fa address-card >}} About"
+        file: about.qmd
       - text: "{{< fa pen >}} Notes"
         file: notes.qmd
       - text: "{{< fa flask >}} Publications"
         file: publications.qmd
-      - text: "{{< fa address-card >}} About"
-        file: about.qmd
+
     right:
       - text: "@Opensource"
         icon: twitter
        # href: https://twitter.com/Opensource
       - icon: github
-       # href: https://github.com/Opensource
+       # href: https://github.com/tamil-phy
       - icon: medium
        # href: https://medium.com/@Opensource
       - icon: linkedin
-       # href: https://linkedin.com/in/Opensource/
+       # href: https://www.linkedin.com/in/tamil-arasan-ph-d-644a3763/
     pinned: false
 
   # favicon: images/favicon.ico

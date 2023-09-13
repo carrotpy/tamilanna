@@ -12,3 +12,10 @@ Intrigued by the entanglement of Physics and Machine Learning? Got burning  ques
 $$
 x = \frac{x_1}{x_2} * \int a dx
 $$
+
+$$
+
+$$
+
+
+

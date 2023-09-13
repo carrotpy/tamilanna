@@ -16,15 +16,17 @@ website:
       - text: "{{< fa address-card >}} About"
         file: about.qmd
     right:
-      - text: "@Opensource"
-        icon: twitter
+      # - text: "@Opensource"
+        # icon: twitter
        # href: https://twitter.com/Opensource
       - icon: github
-       # href: https://github.com/Opensource
+        href: https://github.com/tamil-phy
       - icon: medium
        # href: https://medium.com/@Opensource
       - icon: linkedin
-       # href: https://linkedin.com/in/Opensource/
+        href: https://www.linkedin.com/in/tamil-arasan-644a3763/
+      - icon : google scholar
+        href : https://scholar.google.com/citations?hl=en&user=Szi3WqkAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F5FF6TXWzNo5owa4MN9d1TvIAkPuBttSEj3rfi5MrnyFQH2-qtyV4Bs6REHAQxTxqu5V267WmpeqjxW-SSeBQmL94C9Ccd9QOEbRFVkOeB3eZbUpRw
     pinned: false
 
   # favicon: images/favicon.ico
@@ -42,7 +44,7 @@ website:
         - section: "🌐 **Graph neural networks**"
           contents:
             - text: "1. Graph Convolution Network"
-             # href: posts/2022-02-20-Graph_Convolution_Network.html
+              href: posts/2022-02-20-Graph_Convolution_Network.html
             - text: "2. Graph Attention Network"
              # href: posts/2022-03-09-Graph_Attention_Network.html
             - text: "3. GraphSAGE"

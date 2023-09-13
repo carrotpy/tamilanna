@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/carrotpy/tamilanna/about.html</loc>
-    <lastmod>2023-09-13T09:39:32.815Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/carrotpy/tamilanna/posts/welcome/index.html</loc>
-    <lastmod>2023-09-13T09:39:30.303Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/carrotpy/tamilanna/notes/sample.html</loc>
-    <lastmod>2023-09-13T09:39:27.719Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/carrotpy/tamilanna/about.qmd.html</loc>
-    <lastmod>2023-09-13T09:39:24.639Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/carrotpy/tamilanna/index.html</loc>
-    <lastmod>2023-09-13T09:39:26.415Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/carrotpy/tamilanna/posts/post-with-code/index.html</loc>
-    <lastmod>2023-09-13T09:39:29.015Z</lastmod>
+    <lastmod>2023-09-13T09:42:22.303Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/carrotpy/tamilanna/notes.html</loc>
-    <lastmod>2023-09-13T09:39:31.543Z</lastmod>
+    <lastmod>2023-09-13T09:42:19.095Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/carrotpy/tamilanna/posts/post-with-code/index.html</loc>
+    <lastmod>2023-09-13T09:42:15.863Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/carrotpy/tamilanna/index.html</loc>
+    <lastmod>2023-09-13T09:42:12.283Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/carrotpy/tamilanna/posts/welcome/index.html</loc>
+    <lastmod>2023-09-13T09:42:14.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/carrotpy/tamilanna/about.html</loc>
+    <lastmod>2023-09-13T09:42:17.463Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/carrotpy/tamilanna/notes/sample.html</loc>
+    <lastmod>2023-09-13T09:42:20.695Z</lastmod>
   </url>
 </urlset>

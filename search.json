@@ -7,24 +7,31 @@
     "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "tamilanna",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.qmd.html",
+    "href": "about.qmd.html",
+    "title": "About",
+    "section": "",
+    "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tamil Arasan",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
   }
 ]

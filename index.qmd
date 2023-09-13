@@ -1,5 +1,5 @@
 ---
-title: "tamilanna"
+title: "Tamil Arasan"
 listing:
   contents: posts
   sort: "date desc"

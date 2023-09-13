@@ -14,6 +14,13 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "notes/sample.html",
+    "href": "notes/sample.html",
+    "title": "tamilanna",
+    "section": "",
+    "text": "Finding roots for Higher-Degree Equations:\nHigher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.\nFor example lets us assume an equation of the form ax²+bx+c=0 for which the roots can be found using the formula\nHowever, if our equation contains higher degrees or transcendental functions, we can use numerical methods to find the roots.\nLet us take a look at the simple iteration method to solve the below quadratic equation.\nThe first step is to rearrange the variable on the left side. Thus the equation is reduced into\nNow let us use python to find the roots.\nWe make an initial guess for x, assuming that 100 iterations are more than enough.\nBy substituting the value of x using the guess, we find the new value of x(x_new).\nIf the value of x_new is not equal to x, consider this value as the new value of x.\nThe algorithm repeats the step 2nd and 3rd until the x_new = x.\nx = 0 # Initial Guess\nfor iteration in range(1,101): # Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.00000 The number of iterations : 50\nBy using a different initial guess, the second root can be found.\nx = 1.5 # Initial Guess\nfor iteration in range(1,101):# Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.50000 The number of iterations : 1\nTo be continued ….."
+  },
+  {
     "objectID": "about.qmd.html",
     "href": "about.qmd.html",
     "title": "About",

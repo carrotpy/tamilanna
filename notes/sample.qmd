@@ -1,0 +1,46 @@
+# Finding roots for Higher-Degree Equations:
+
+Higher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.
+
+For example lets us assume an equation of the form ax²+bx+c=0 for which the roots can be found using the formula
+
+However, if our equation contains higher degrees or transcendental functions, we can use numerical methods to find the roots.
+
+Let us take a look at the simple iteration method to solve the below quadratic equation.
+
+The first step is to rearrange the variable on the left side. Thus the equation is reduced into
+
+$$x = \frac{x_1}{x_2} * \int a dx$$
+
+
+
+Now let us use python to find the roots.
+
+    We make an initial guess for x, assuming that 100 iterations are more than enough.
+    By substituting the value of x using the guess, we find the new value of x(x_new).
+    If the value of x_new is not equal to x, consider this value as the new value of x.
+    The algorithm repeats the step 2nd and 3rd until the x_new = x.
+
+x = 0 # Initial Guess                     
+for iteration in range(1,101): # Setting iterations to 100 
+    x_new = (4*x**2 + 6)/10      # Finding the new value
+    if abs(x_new - x) < 0.000001: # degree of accuracy condition
+        break
+    x = x_new                    # Assigns the value of x_new to x
+print('The root : %0.5f' % x_new) 
+print('The number of iterations : %d' % iteration)The root : 1.00000
+The number of iterations : 50
+
+By using a different initial guess, the second root can be found.
+
+x = 1.5     # Initial Guess        
+for iteration in range(1,101):# Setting iterations to 100
+    x_new = (4*x**2 + 6)/10   # Finding the new value
+    if abs(x_new - x) < 0.000001: # degree of accuracy condition
+        break
+    x = x_new       # Assigns the value of x_new to x
+print('The root : %0.5f' % x_new)
+print('The number of iterations : %d' % iteration)The root : 1.50000
+The number of iterations : 1
+
+To be continued …..

@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "about.qmd.html",
-    "href": "about.qmd.html",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": " Research notes",
-    "section": "",
-    "text": "3 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tamil Arasan",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -35,17 +14,38 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!"
-  },
-  {
     "objectID": "notes/sample.html",
     "href": "notes/sample.html",
-    "title": "tamilanna",
+    "title": "Finding roots for Higher-Degree Equations:",
     "section": "",
-    "text": "Finding roots for Higher-Degree Equations:\nHigher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.\nFor example lets us assume an equation of the form ax²+bx+c=0 for which the roots can be found using the formula\nHowever, if our equation contains higher degrees or transcendental functions, we can use numerical methods to find the roots.\nLet us take a look at the simple iteration method to solve the below quadratic equation.\nThe first step is to rearrange the variable on the left side. Thus the equation is reduced into\nNow let us use python to find the roots.\nWe make an initial guess for x, assuming that 100 iterations are more than enough.\nBy substituting the value of x using the guess, we find the new value of x(x_new).\nIf the value of x_new is not equal to x, consider this value as the new value of x.\nThe algorithm repeats the step 2nd and 3rd until the x_new = x.\nx = 0 # Initial Guess\nfor iteration in range(1,101): # Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.00000 The number of iterations : 50\nBy using a different initial guess, the second root can be found.\nx = 1.5 # Initial Guess\nfor iteration in range(1,101):# Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.50000 The number of iterations : 1\nTo be continued ….."
+    "text": "Finding roots for Higher-Degree Equations:\nHigher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.\nFor example lets us assume an equation of the form ax²+bx+c=0 for which the roots can be found using the formula\nHowever, if our equation contains higher degrees or transcendental functions, we can use numerical methods to find the roots.\nLet us take a look at the simple iteration method to solve the below quadratic equation.\nThe first step is to rearrange the variable on the left side. Thus the equation is reduced into\nx = \\frac{x_1}{x_2} * \\int a dx\nNow let us use python to find the roots.\nWe make an initial guess for x, assuming that 100 iterations are more than enough.\nBy substituting the value of x using the guess, we find the new value of x(x_new).\nIf the value of x_new is not equal to x, consider this value as the new value of x.\nThe algorithm repeats the step 2nd and 3rd until the x_new = x.\nx = 0 # Initial Guess\nfor iteration in range(1,101): # Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.00000 The number of iterations : 50\nBy using a different initial guess, the second root can be found.\nx = 1.5 # Initial Guess\nfor iteration in range(1,101):# Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.50000 The number of iterations : 1\nTo be continued ….."
+  },
+  {
+    "objectID": "about.qmd.html",
+    "href": "about.qmd.html",
+    "title": "About",
+    "section": "",
+    "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!\n\nx = \\frac{x_1}{x_2} * \\int a dx"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tamil Arasan",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": " Research notes",
+    "section": "",
+    "text": "Finding roots for Higher-Degree Equations:\n\n\n\n\n\n\n\n\n\n\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

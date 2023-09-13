@@ -4439,6 +4439,38 @@ vertical-align: -.125em;
   }
 }</script>
 
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var head = document.getElementsByTagName("head")[0];
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css";
+      head.appendChild(link);
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js";
+      script.async = false;
+      script.addEventListener('load', function() {
+        var mathElements = document.getElementsByClassName("math");
+          var macros = [];
+          for (var i = 0; i < mathElements.length; i++) {
+            var texText = mathElements[i].firstChild;
+            if (mathElements[i].tagName == "SPAN") {
+              window.katex.render(texText.data, mathElements[i], {
+                displayMode: mathElements[i].classList.contains('display'),
+                throwOnError: false,
+                macros: macros,
+                fleqn: false
+              });
+            }
+          }
+      });
+      head.appendChild(script);
+    });
+  </script>
+  
 
 <style type="text/css">
 .content img {
@@ -4676,19 +4708,27 @@ display: none;
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title"><strong>Sections</strong></h2>
+   
+  <ul class="collapse">
+  <li><a href="#finding-roots-for-higher-degree-equations" id="toc-finding-roots-for-higher-degree-equations" class="nav-link active" data-scroll-target="#finding-roots-for-higher-degree-equations">Finding roots for Higher-Degree Equations:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
-<p>Finding roots for Higher-Degree Equations:</p>
+<section id="finding-roots-for-higher-degree-equations" class="level1">
+<h1>Finding roots for Higher-Degree Equations:</h1>
 <p>Higher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.</p>
 <p>For example lets us assume an equation of the form ax²+bx+c=0 for which the roots can be found using the formula</p>
 <p>However, if our equation contains higher degrees or transcendental functions, we can use numerical methods to find the roots.</p>
 <p>Let us take a look at the simple iteration method to solve the below quadratic equation.</p>
 <p>The first step is to rearrange the variable on the left side. Thus the equation is reduced into</p>
+<p><span class="math display">x = \frac{x_1}{x_2} * \int a dx</span></p>
 <p>Now let us use python to find the roots.</p>
 <pre><code>We make an initial guess for x, assuming that 100 iterations are more than enough.
 By substituting the value of x using the guess, we find the new value of x(x_new).
@@ -4702,6 +4742,7 @@ for iteration in range(1,101):# Setting iterations to 100 x_new = (4*x**2 + 6)/1
 <p>To be continued …..</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

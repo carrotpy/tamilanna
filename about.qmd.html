@@ -4439,6 +4439,38 @@ vertical-align: -.125em;
   }
 }</script>
 
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var head = document.getElementsByTagName("head")[0];
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css";
+      head.appendChild(link);
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js";
+      script.async = false;
+      script.addEventListener('load', function() {
+        var mathElements = document.getElementsByClassName("math");
+          var macros = [];
+          for (var i = 0; i < mathElements.length; i++) {
+            var texText = mathElements[i].firstChild;
+            if (mathElements[i].tagName == "SPAN") {
+              window.katex.render(texText.data, mathElements[i], {
+                displayMode: mathElements[i].classList.contains('display'),
+                throwOnError: false,
+                macros: macros,
+                fleqn: false
+              });
+            }
+          }
+      });
+      head.appendChild(script);
+    });
+  </script>
+  
 
 <style type="text/css">
 .content img {
@@ -4694,6 +4726,9 @@ display: none;
 <p>Hi there, I’m <strong>Tamil Arasan</strong>, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.</p>
 <p>When I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.</p>
 <p>Intrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!</p>
+<p><span class="math display">
+x = \frac{x_1}{x_2} * \int a dx
+</span></p>
 
 
 </section>

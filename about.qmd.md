@@ -5,3 +5,10 @@ Hi there, I'm **Tamil Arasan**, your bridge between Theoretical Physics and Mach
 When I am not in the lab or coding, you can find me in the classroom. I'm incredibly passionate about imparting knowledge  and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping  students see the wonder and applicability of Physics in everyday life.
 
 Intrigued by the entanglement of Physics and Machine Learning? Got burning  questions or novel ideas? Reach out and let's make science happen!
+
+
+
+
+$$
+x = \frac{x_1}{x_2} * \int a dx
+$$

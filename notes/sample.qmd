@@ -1,4 +1,4 @@
-Finding roots for Higher-Degree Equations:
+# Finding roots for Higher-Degree Equations:
 
 Higher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.
 
@@ -9,6 +9,10 @@ However, if our equation contains higher degrees or transcendental functions, we
 Let us take a look at the simple iteration method to solve the below quadratic equation.
 
 The first step is to rearrange the variable on the left side. Thus the equation is reduced into
+
+$$x = \frac{x_1}{x_2} * \int a dx$$
+
+
 
 Now let us use python to find the roots.
 

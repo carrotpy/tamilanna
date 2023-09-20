@@ -19,5 +19,14 @@
   },
   "about.qmd.md": {
     "about.qmd.html": "3d7e5339"
+  },
+  "publications/publications.qmd": {
+    "publications.html": "3142ec7e"
+  },
+  "blogs/blogs.qmd": {
+    "blogs.html": "baecbc63"
+  },
+  "notes/notes.qmd": {
+    "notes.html": "d1bfa87f"
   }
 }

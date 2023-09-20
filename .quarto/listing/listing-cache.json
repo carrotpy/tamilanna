@@ -1,10 +1,10 @@
 {
   "listingMap": {
+    "notes/notes.qmd": [
+      "notes"
+    ],
     "index.qmd": [
       "posts"
-    ],
-    "notes.qmd": [
-      "notes"
     ]
   }
 }

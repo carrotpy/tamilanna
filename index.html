@@ -4812,7 +4812,7 @@ padding: 0.5rem;
 color: #1e2124;
 font-size: 220%;
 }
-.quarto-title-banner, .navbar-light, .navbar-dark {
+.quarto-title-banner, .navbar-light, .navbar-light {
 background: black;
 
 }
@@ -4858,45 +4858,11 @@ margin-block-end: 0px !important;
 main {
 margin-top: 0px !important;
 }
-#gnn-book {
-display: block;
-margin-top: 20px auto;
-margin-bottom: 20px auto;
-
-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-animation: float 3s ease-in-out infinite;
-}
-#desc-book {
-margin: 20px;
-}
 
 @keyframes float {
 0% { transform: translateY(0); }
 50% { transform: translateY(-8px); }
 100% { transform: translateY(0); }
-}
-#Amazon {
-display: inline-block;
-padding: 25px 50px;
-margin-top: 10px;
-border-radius: 8px;
-background-image:black;
-color: #fff;
-text-decoration: none;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-transition: box-shadow 0.3s ease;
-font-size: 25px;
-font-weight: bold;
-text-align: center;
-}
-#Amazon:hover {
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-transform: scale(1.01);
-}
-#Amazon:active {
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-transform: scale(0.95);
 }
 div#quarto-toc-toggle {
 visibility: hidden;
@@ -4931,19 +4897,20 @@ display: none;
 nav.quarto-secondary-nav {
 display: none;
 }
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
 color: #ffce67;
 }
-.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active {
-color: #ffce67;
-}</style>
+.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active {
+color: #ffce67; } </style>
 <meta property="og:title" content="Tamil Arasan">
+<meta property="og:description" content>
 <meta property="og:site-name" content="Tamil Arasan">
 <meta name="twitter:title" content="Tamil Arasan">
+<meta name="twitter:description" content>
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -4961,15 +4928,15 @@ color: #ffce67;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel target>
- <span class="menu-text"> About</span></a>
+    <a class="nav-link" href="./blogs/blogs.html" rel target>
+ <span class="menu-text"> Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notes.html" rel target>
+    <a class="nav-link" href="./notes/notes.html" rel target>
  <span class="menu-text"> Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.qmd" rel target>
+    <a class="nav-link" href="./publications/publications.html" rel target>
  <span class="menu-text"> Publications</span></a>
   </li>  
 </ul>
@@ -4995,11 +4962,21 @@ color: #ffce67;
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tamil Arasan</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
+    <div class="quarto-title column-body">
       <h1 class="title">Tamil Arasan</h1>
                       </div>
   </div>
@@ -5015,19 +4992,47 @@ color: #ffce67;
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">🗣️ **Large language models**</span></span>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">💡 **Machine learning**</span></span>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title"><strong>Sections</strong></h2>
+   
+  <ul class="collapse">
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  </ul>
+</nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category>All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
 
 
 
+<section id="about" class="level1">
+<h1>About</h1>
+<p>Hi there, I’m <strong>Tamil Arasan</strong>, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.</p>
+<p>When I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.</p>
+<p>Intrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!</p>
 
 
 
+</section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">

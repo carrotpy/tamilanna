@@ -1,38 +1,10 @@
 [
   {
-    "objectID": "about.qmd.html",
-    "href": "about.qmd.html",
-    "title": "Introduction to Neural Networks",
-    "section": "",
-    "text": "The first computational model of a neuron was proposed by Warren McCulloch and Walter Pitts in 1943. Inspired by McCulloch and Pitts, Rosenblatt built the first neural network, a single layer, linear binary classifier in 1957. These linear models are severely limited by the family of functions that they can approximate. Minsky (1966) pointed out the limitations of the linear family of models, such as their inability to learn the XOR function. This revelation led to a backlash against the neural networks approach.\nIvakhnenko (1971) introduced the first Multi-layer Perceptron (8 layers), which could learn nonlinear functions. The idea of using the chain rule for training neural networks was independently discovered by Lecun, Parker, and Rumelhart in the 1980s. Rumelhart and Hinton (1986) presented the first successful experiments with backpropagation in their book, Parallel Distributed Processing. Neural Networks gained ascendancy following the success of backpropagation.\nHochreiter (1991) addressed the vanishing and exploding gradient problems in backpropagation. Hochreiter and Schmidhuber (1997) introduced the Long-short Term Memory networks (LSTMs), which could remember relevant information for a longer number of time steps. This prevented the decay of the error signal between the layers. LeCun (1998) used LeNet-5, a 7-layered convolutional neural network for classifying handwritten numbers. The network was trained by combining Stochastic Gradient Descent (SGD) with backpropagation.\nHinton (2006) introduced the first Deep Neural Network called the Deep Belief Network trained using greedy layer-wise pretraining. This work is widely considered to have ushered in the modern era of Deep Learning.\nThe Deep Learning method has equipped both systems of abstract forms of intelligence (Chess, Go) and application-oriented systems(Speech Recognition, Computer Vision) with super-human ability.\n\n\nArtificial Neural Network is an umbrella term that encompasses a variety of learning systems grouped under the Connectionism category. The neural networks can be classified into different types based on their architecture, nature of inputs and outputs, operating mechanisms and training algorithms, etc. Integrate-and-fire networks map inputs to outputs through several non-linear transformations without any regard to timing, whereas in the Spiking neural networks, timing plays a crucial role. In most neural network types, the architecture is fixed, only the weights of the edges connecting the neurons are adjusted, whereas, in Neuro-evolution methods like NEAT, both the architecture and weights can be changed. Depending on the nature of the target, variable neural networks can be classified into two major categories such as regressors (real number output) and classifiers (categorical output). Hopfield neural networks use the Hebbian learning rule for training, whereas the network we are discussing in this blog namely, Deep Neural Networks, uses the backpropagation algorithm for training.\nThey all have one thing in common, a collection of simple neuron-like units connected to each other that cooperate to model the relationship between input and output. The neuron is the building block of a Neural Network. There are different models of neurons with varying closeness to the biological counterpart. The most famous model is the integrate-and-fire neuron. They have input and output edges connecting to other neurons. An integrate-and-fire neuron collects input from all its input edges, and after reaching a threshold, it lights up all its output edges.\n\n\n\nimg"
-  },
-  {
-    "objectID": "about.qmd.html#what-is-a-neural-network",
-    "href": "about.qmd.html#what-is-a-neural-network",
-    "title": "Introduction to Neural Networks",
-    "section": "",
-    "text": "Artificial Neural Network is an umbrella term that encompasses a variety of learning systems grouped under the Connectionism category. The neural networks can be classified into different types based on their architecture, nature of inputs and outputs, operating mechanisms and training algorithms, etc. Integrate-and-fire networks map inputs to outputs through several non-linear transformations without any regard to timing, whereas in the Spiking neural networks, timing plays a crucial role. In most neural network types, the architecture is fixed, only the weights of the edges connecting the neurons are adjusted, whereas, in Neuro-evolution methods like NEAT, both the architecture and weights can be changed. Depending on the nature of the target, variable neural networks can be classified into two major categories such as regressors (real number output) and classifiers (categorical output). Hopfield neural networks use the Hebbian learning rule for training, whereas the network we are discussing in this blog namely, Deep Neural Networks, uses the backpropagation algorithm for training.\nThey all have one thing in common, a collection of simple neuron-like units connected to each other that cooperate to model the relationship between input and output. The neuron is the building block of a Neural Network. There are different models of neurons with varying closeness to the biological counterpart. The most famous model is the integrate-and-fire neuron. They have input and output edges connecting to other neurons. An integrate-and-fire neuron collects input from all its input edges, and after reaching a threshold, it lights up all its output edges.\n\n\n\nimg"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": " Research notes",
-    "section": "",
-    "text": "Finding roots for Higher-Degree Equations:\n\n\n\n\n\n\n\n\n\n\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "publications/publications.html",
+    "href": "publications/publications.html",
     "title": "Tamil Arasan",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!"
+    "text": "Data-driven multi-valley dark solitons of multi-component Manakov Model using Physics-Informed Neural Networks\nPrimer on solving differential equations using machine learning techniques\nBayesian Optimization of Bose-Einstein Condensates\nSymSpell and LSTM based Spell-Checkers for Tamil\nStructural, linear and non linear optical, electrical, piezoelectric and thermal investigation on new semi-organic single crystal for microelectronics and high power laser applications: A brucinium di-hydrogen borate hydrate\nDynamics of solitons in the fourth-order nonlocal nonlinear Schrödinger equation\nStructural, optical and piezoelectric investigation on brucinium bromide hydrate non linear optical single crystal for optical parametric oscillators, high-power laser, piezo-sensors and transducers applications"
   },
   {
     "objectID": "notes/sample.html",
@@ -40,5 +12,19 @@
     "title": "Finding roots for Higher-Degree Equations:",
     "section": "",
     "text": "Finding roots for Higher-Degree Equations:\nHigher-degree equations can be polynomials or equations that contains radicals sometimes may have transcendental functions, i.e., Logarithmic and trigonometric functions.\nFor example lets us assume an equation of the form ax²+bx+c=0 for which the roots can be found using the formula\nHowever, if our equation contains higher degrees or transcendental functions, we can use numerical methods to find the roots.\nLet us take a look at the simple iteration method to solve the below quadratic equation.\nThe first step is to rearrange the variable on the left side. Thus the equation is reduced into\nx = \\frac{x_1}{x_2} * \\int a dx\nNow let us use python to find the roots.\nWe make an initial guess for x, assuming that 100 iterations are more than enough.\nBy substituting the value of x using the guess, we find the new value of x(x_new).\nIf the value of x_new is not equal to x, consider this value as the new value of x.\nThe algorithm repeats the step 2nd and 3rd until the x_new = x.\nx = 0 # Initial Guess\nfor iteration in range(1,101): # Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.00000 The number of iterations : 50\nBy using a different initial guess, the second root can be found.\nx = 1.5 # Initial Guess\nfor iteration in range(1,101):# Setting iterations to 100 x_new = (4*x**2 + 6)/10 # Finding the new value if abs(x_new - x) &lt; 0.000001: # degree of accuracy condition break x = x_new # Assigns the value of x_new to x print(‘The root : %0.5f’ % x_new) print(‘The number of iterations : %d’ % iteration)The root : 1.50000 The number of iterations : 1\nTo be continued ….."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tamil Arasan",
+    "section": "",
+    "text": "About\nHi there, I’m Tamil Arasan, your bridge between Theoretical Physics and Machine Learning! Based in Chennai, but with roots in picturesque Puducherry, I bring over seven years of research and four years of industry expertise to the table. I believe in the transformative power of applying machine learning techniques to complex problems in physics. My research doesn’t reside solely in the theoretical realm; it’s an actionable toolkit designed to solve real-world challenges. Whether it’s decoding the intricacies of Quantum Many-Body systems or streamlining the efficiency of Clinical Trials through machine learning, my work aims to bridge scientific inquiry and practical application, driving tangible advancements in both academia and industry.\nWhen I am not in the lab or coding, you can find me in the classroom. I’m incredibly passionate about imparting knowledge and igniting curiosity about Physics and Mathematics in students. I love making complex concepts relatable through real-life examples, helping students see the wonder and applicability of Physics in everyday life.\nIntrigued by the entanglement of Physics and Machine Learning? Got burning questions or novel ideas? Reach out and let’s make science happen!\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes/notes.html",
+    "href": "notes/notes.html",
+    "title": " Research notes",
+    "section": "",
+    "text": "No matching items"
   }
 ]
